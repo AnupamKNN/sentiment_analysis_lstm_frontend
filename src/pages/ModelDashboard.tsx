@@ -15,7 +15,6 @@ import {
 import { Bar, Line } from 'react-chartjs-2'
 import { BarChart3, TrendingUp, AlertCircle, Activity } from 'lucide-react'
 import apiService from '../services/api'
-import type { EvaluationMetrics } from '../types/api'
 
 ChartJS.register(
   CategoryScale,

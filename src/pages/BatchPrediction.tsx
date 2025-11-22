@@ -18,7 +18,6 @@ const BatchPrediction: React.FC = () => {
   
   // Inputs
   const [serverInputPath, setServerInputPath] = useState('')
-  const [serverOutputPath, setServerOutputPath] = useState('')
   const [customFilename, setCustomFilename] = useState('')
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -216,7 +215,6 @@ const BatchPrediction: React.FC = () => {
     setResult(null)
     setError(null)
     setServerInputPath('')
-    setServerOutputPath('')
     setCustomFilename('')
     if (fileInputRef.current) {
       fileInputRef.current.value = ''
